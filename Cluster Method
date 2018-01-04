@@ -1,0 +1,29 @@
+# CLuster method 聚类方法
+--------
+2017-12-29
+
+### K-means
+
+### Gaussian Mixture Model (GMM)
+> 考虑概率的kmeans。
+
+> 最后总结一下，用GMM的优点是投影后样本点不是得到一个确定的分类标记，
+而是得到每个类的概率，这是一个重要信息。GMM每一步迭代的计算量比较大，
+大于k-means。
+
+> GMM的求解办法基于EM算法，因此有可能陷入局部极值，
+这和初始值的选取十分相关了。GMM不仅可以用在聚类上，也可以用在概率密度估计上。
+
+> AIC： Akaike information criterion，赤池信息量。
+
+> BIC：Bayesian information criterion，贝叶斯信息度量，也叫 SIC, SBC, SC，SBIC。
+
+> 定义式为：
+
+> AIC=2ln(f(y|θk))−2K。选择模型时选择AIC最大的模型。
+
+> BIC=2ln(f(y|θk))−Klog(n)。选择模型时选择BIC最大的模型。
+
+> AIC和BIC的公式中前半部分是一样的，后半部分是惩罚项，
+当n≥8时，kln(n)≥2k，所以，BIC相比AIC在大数据量时对模型参数惩罚得更多，导致BIC更倾向于选择参数少的简单模型。
+## Next

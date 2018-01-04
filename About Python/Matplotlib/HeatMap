@@ -1,0 +1,21 @@
+# Heatmap
+https://openbook4.me/projects/230/sections/1523
+
+1.seabornを使った場合：
+
+    import numpy as np
+    import matplotlib
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+    import seaborn as sns
+ 
+    sns.set()
+    fig, ax = plt.subplots(1,2)
+    data = np.array([[0.000000,0.000000],[-0.231049,0.000000],[-0.231049,0.000000]])
+    sns.heatmap(data, vmin=-0.231049, vmax=0, annot=True, fmt='f', annot_kws={"size": 15}, ax=ax[0])
+    sns.heatmap(data, vmin=-0.231049, vmax=0, annot=True, fmt='f', annot_kws={"size": 10}, ax=ax[1]);
+    plt.savefig('aaa.png')
+
+ssss
+
+    adsdf

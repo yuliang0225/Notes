@@ -1,0 +1,50 @@
+# Todo list
+## Necessary Skill
+### Language
+    Python
+    R
+    Matlab
+    C
+    Java
+    Ruby*
+### Skill
+    Data base: SQL; pandas.
+    Modeling
+    Feature Engineering
+    Ensemble: Pipeline**
+----
+### 01-Data_Science_London
+1. RandomForest 模型的建立及评估 KO
+2. 学习优秀模型 （ACC>99.0%）KO
+3. 学习MatplotLib数据可视化模块
+4. Python机械学习包的概览（交互验证，gridsearch的实现）KO
+5. 如何优雅的使用Atom
+6. Optimal model: GMM+RF
+7. Gaussian Mixture Model (GMM): 用GMM的优点是投影后样本点不是得到一个确定的分类标记，
+而是得到每个类的概率，这是一个重要信息。GMM每一步迭代的计算量比较大，
+大于k-means。GMM的求解办法基于EM算法，因此有可能陷入局部极值，
+这和初始值的选取十分相关了。GMM不仅可以用在聚类上，也可以用在概率密度估计上。
+8. AIC： Akaike information criterion，赤池信息量。
+根据AIC来优选参数：Cluster数目和优化方法。
+----
+### 02-Titanic: Machine Learning from Disaster
+1. 清理数据
+2. 数据的可视化（Seaborn）
+3. Titanic v1 ()
+4. Titanic v2
+
+
+
+----
+### 03-Recruit Restaurant Visitor Forecasting
+
+### 把我之前用过的方法用Python实现一遍，并做好笔记。
+> Samples: KS SMOTE
+>
+> Feature Engineering: PCA PLS-UVE Brota SPA
+>
+> Models: LDA SVM RF ELM LVQ GRNN
+>
+7. R语言的数据统计分析 夯实基础 （Data Review）
+
+### 目标： 做项目

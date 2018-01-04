@@ -1,0 +1,53 @@
+# Python Machine Learning
+## 1 Understand Data
+### Statistical data visualization
+https://seaborn.pydata.org/
+
+----
+## 2 Preprocessing
+### 2.1 Data Cleaning
+----
+### 2.2 Missing Data
+#### 2.2.1 SMOTE
+#### 2.2.2 Scikit-Learn estimator API
+----
+### 2.3 Selection of features
+(Scikit-Learn Feature_Selection)
+#### 2.3.1 PCA
+#### 2.3.2 PLS-UVE
+#### 2.3.3 RandomForest based method
+#### 2.3.4 SPA
+----
+### 2.4 TrainSet and TestSet
+#### 2.4.1 Cross validation
+#### 2.4.2 Random Selection
+#### 2.4.3 KS
+#### 2.4.4 SPXY
+----
+### 2.5 Unsupervised method
+#### 2.5.1 PCA
+#### 2.5.2 LDA
+#### 2.5.3 Kernel PCA
+#### 2.5.4 K-means
+#### 2.5.5 Gaussian Mixture Model (GMM)
+#### 2.5.6 HCL
+#### 2.5.7 t-SNE
+----
+## 3 Modeling (Pipeline)
+### 3.1 Topic: Classification and Regression
+### 3.2 KNN
+### 3.3 SVM
+### 3.4 Logic Regression
+### 3.5 RandomForest
+### 3.6 Xgboot
+### 3.7 ELM
+### 3.8 PLS
+### 3.9 LVQ
+### 3.10 GRNN
+----
+## 4 Evaluation
+### 4.1 Classification
+#### Accuracy F1-score ROC
+### 4.2 Regression
+#### MSE RMSE R
+----

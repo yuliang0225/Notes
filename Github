@@ -1,0 +1,6 @@
+cd///
+git add .
+git commit -m "Add Sect02"
+git status
+git remote add origin git@github.com:yuliang0225/Python_test.git
+git push -u origin master
